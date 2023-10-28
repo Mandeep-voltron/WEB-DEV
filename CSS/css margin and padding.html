@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>margin and padding</title>
+    <style>
+.man{
+    margin: 5px;
+    padding: 50px;
+    background-color: blue;
+    border: solid black 2px;
+    height: 200px;
+    box-sizing: border-box;/*this shows that height = content+border+padding for height or width*/
+}
+#m{
+    margin: 5px;
+    padding: 50px;
+    background-color: blue;
+    border: solid black 2px;
+    height: 200px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="man">i am mandeep</div>
+    <div id="m">mandeep</div>
+    <!-- margin merge beause of css property
+    25   50  =50
+25 25 = 25
+25 12 = 25 -->
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="forms.css">
+</head>
+
+<body>
+    <center><h1>Forms in HTML</h1></center>
+    <!-- <using br tag is not good practice we will achiev by css</h3> -->
+    <!-- we may use selected if we want something to be selected by default in options for favroit food -->
+    <form action="backend.php">
+        <div>
+            <label for="Name">Name:</label>
+            <input type="text" name="myname" id="Name" placeholder="Username">
+        </div>
+        <br>
+        <div>
+            <label for="Role">Role:</label>
+            <input type="text" name="myrole" id="Role" placeholder="Your Role">
+        </div>
+        <br>
+        <div>
+            <label for="Email">Email:</label>
+            <input type="email" name="myemail" id="Email" placeholder="email@example.com">
+        </div>
+        <br>
+        <div>
+            <label for="Date">Date of birth:</label>
+            <input type="date" name="Date" id="Date">
+        </div>
+        <br>
+        <div>
+            <label for="bonus">Bonus:</label>
+            <input type="number" name="bonus" id="bonus">
+        </div>
+        <br>
+        <div>
+            Gender:
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="gender">
+            <label for="gen">Female</label>
+            <input type="radio" name="gender" id="gen">
+        </div>
+        <br>
+        <div>
+            <label for="eligibile">Are you eligible :</label>
+            <input type="checkbox" name="eligibility" id="eligibile">
+        </div>
+        <br>
+        <div>
+            <label for="favroit food">Favroit food:</label>
+            <select name="favroit food" id="favroit food">
+                <option value="Pav Bhaji">Pav Bhaji</option>
+                <option value="panner" selected>Paneer do pyaja</option>
+                <option value="gola">Mali gola</option>
+                <option value="faluda">Faluda</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="text">Write about yourself</label><br>
+            <textarea name="text" id="text" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+</body>
+
+</html>

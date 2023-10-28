@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity</title>
+    <style>
+        h1{
+            color: maroon;
+        }
+        .nan{
+            color: blueviolet;
+        }
+        .man{
+            color: blue;
+        }
+        /* this is an example of atribute selector */
+        /* [data-x=a]{
+            color: aqua;
+        } */
+        
+    </style>
+</head>
+
+<body>
+    this is used when multiple styling is given to a same element it will be resolvled with the cascading algorithm
+    <div>
+        <h1 class="nan man" data-x="a">MANDEEP</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid aperiam sequi recusandae nisi animi.
+        Perferendis ex a blanditiis tenetur quisquam quis provident!</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum iusto in ducimus doloribus tempora. Dolorem id
+        dolorum dolore animi, suscipit rerum, ratione tempora iusto reprehenderit repudiandae consectetur ipsa sint.
+        Impedit optio libero autem a consectetur aspernatur ipsa? Eum laboriosam ea, saepe libero cumque fugiat alias?
+    </div>
+  
+</body>
+
+</html>

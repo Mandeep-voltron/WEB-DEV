@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* element selector */
+        div {
+            color: red;
+        }
+
+        /* class selector */
+        .man {
+            color: aquamarine;
+            background: #000;
+        }
+
+        /* id selector */
+        #m {
+            color: blue;
+        }
+
+        /* child selector */
+        /* div > p{ should be direct inside the div
+        color: green;
+        background-color: #000;
+        }*/
+
+        */
+
+        /* decendent selector */
+        div  p {
+            /*no direct div>article>p*/
+            color: red;
+        }
+        /* uiversal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* psuedo selector */
+        a:hover{
+            color: #dc9998eb;
+        }
+        a:visited{
+            color: red;
+        }
+        a:active{
+            background-color: black;
+        }
+        a:link{
+            color: green;
+        }
+        /* p:first-child{
+            color:black;
+        }
+        */
+    </style>
+</head>
+
+<body>
+    <div> I am a div</div>
+    <div class="man">i AN also a div</div>
+    <div id="m">I am div with id
+        <p>i am para inside div</p>
+    </div>
+    <div>
+        <article>
+            <p>para inside a div inside a article</p>
+        </article>
+    </div>
+    <a href="http//:www.google.com" target="_blank">google</a>
+    <a href="http//:www.youtube.com">cwh</a>
+    
+
+</body>
+
+</html>
