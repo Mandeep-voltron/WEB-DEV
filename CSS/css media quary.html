@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .m {
+            background-color: aqua;
+        }
+        @media only screen and (max-width:450px) {
+            .m {
+                background-color: blue;
+            }
+            .boxc{
+                flex-direction: column;
+            }
+
+            
+        }
+    
+        .box {
+            height: 150px;
+            width: 250px;
+            background-color: rgb(119, 238, 198);
+            border: 2px solid red;
+           
+        }
+        .boxc{
+display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="m">Lorem, ipsum dolor.</div>
+    <div class="m">Lorem, ipsum dolor.</div>
+    <div class="m">Lorem, ipsum dolor.</div>
+    <div class="boxc">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+</body>
+
+</html>
