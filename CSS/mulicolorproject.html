@@ -5,41 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NAV BAR</title>
- <style>
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    :root{
-        background-color: blue;
-    }
-    ul{
-        display: flex;
-    }
-    li{
-        list-style: none;
-        margin: 2px;
-        padding: 2px;
-    }
- </style>
+    <style>
+        html {
+            background-color: rgb(181, 128, 230);
+        }
+
+        * {
+
+            margin: 0;
+            padding: 0;
+        }
+
+
+        ul {
+            font-size: large;
+            width: auto;
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            margin: 2px;
+            padding: 2px;
+        }
+
+        nav {
+            padding: 3px;
+            margin: 3px;
+            box-sizing: border-box;
+
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: large;
+        }
+    </style>
     </style>
 </head>
 
 <body>
     <div>
-        <nav>
-       
+        <nav style="background-color: blue;">
+
             <ul>
                 <h2 class="h">MANDEEP</h2>
-                <li>HOME</li>
-                <li>WORKSHOP</li>
-                <li>PLAN</li>
-                <li>ABOUT</li>
-                <li>CONTACT</li>
+                <li><a href="CSS\display property in css.html" target="_blank">HOME</a></li>
+                <li><a href="CSS\css specificity.html" target="_blank">WORKSHOP</a></li>
+                <li><a href="CSS\sdding css and three type.html" target="_blank">ABOUT</a></li>
+                <li><a href="CSS\shadow and outline.html" target="_blank">CONTACT</a></li>
             </ul>
+
         </nav>
     </div>
-  
+
 </body>
 
 </html>
